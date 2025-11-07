@@ -25,9 +25,18 @@ This project demonstrates a simple **ETL (Extract, Transform, Load)** workflow o
 
 ---
 
-### 📊 Airflow DAG Dashboard Screenshot
+### Running the Pipeline
+#### Start Airflow Scheduler
+airflow scheduler
 
-> **Upload your image to GitHub first**, then replace the link below.
+#### Start Airflow Web Server
+airflow webserver -p 8085
 
-```md
-![Airflow MySQL ETL DAG](D:\resume\etl_pipeline.jpg)
+
+### Open Airflow UI in browser:
+
+http://localhost:8085
+
+
+
+
